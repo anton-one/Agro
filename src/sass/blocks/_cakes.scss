@@ -1,0 +1,25 @@
+.cakes {
+	background: url(../img/6-testy/tt.png) right no-repeat;
+	padding: 140px 0 170px;
+	background-color: #f9f9f9;
+	position: relative;
+
+	.cakes__inner {
+		/* position: relative;
+		z-index: 1; */
+	}
+
+	.cakes__title {
+		color: #ccaf8a;
+		font-family: 'Storytella';
+		font-size: 230px;
+		line-height: 0.83;
+		font-weight: 400;
+	}
+
+	.cakes__irg {
+		position: absolute;
+		right: 22%;
+		top: 3%;
+	}
+}

@@ -1,0 +1,48 @@
+.progress {
+	padding: 130px 0;
+	background-color: #fff;
+
+	.progress__inner {
+		text-align: center;
+	}
+
+	.progress__title {
+		margin-bottom: 25px;
+	}
+
+	.progress__block {
+		margin-top: 70px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.progress__item {
+		flex-basis: 25%;
+		display: flex;
+		align-items: flex-start;
+		margin-bottom: 30px;
+	}
+
+	.item__content {
+		margin-left: 30px;
+	}
+
+	.progress__number {
+		color: #2e211d;
+		font-family: "Gilroy";
+		font-size: 50px;
+		line-height: 1;
+		font-weight: 800;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+
+	.progress__name {
+		color: #555555;
+		font-family: 'Raleway';
+		font-size: 16px;
+		line-height: 1;
+		font-weight: 700;
+	}
+}

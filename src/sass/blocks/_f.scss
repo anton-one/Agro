@@ -1,0 +1,52 @@
+figure {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	max-width: 700px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #ddd;
+	padding: 30px;
+}
+
+figure>* {
+	flex: 0 0;
+	flex-basis: calc(50% - 10px);
+	min-width: calc(50% - 10px);
+	position: relative;
+}
+
+.text {}
+
+.image {}
+
+.image b {
+	width: calc(50vw - 10px);
+	display: block;
+	background: url(https://placeimg.com/640/480/any) no-repeat center center;
+	background-size: cover;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+figure:nth-child(even) {
+	flex-flow: row-reverse;
+	background-color: #333;
+	color: #fff;
+}
+
+figure:nth-child(even) .image b {
+	left: unset;
+	right: 0;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}

@@ -1,0 +1,47 @@
+.perfect {
+	padding: 140px 0 220px;
+	background: url(../img/5-perfect/p-bg.jpg) center (center/cover) no-repeat;
+	position: relative;
+
+
+	.perfect__inner {}
+
+	.perfect__title {
+		margin-bottom: 35px;
+		max-width: 300px;
+		color: #ffffff;
+	}
+
+	.perfect__text {
+		color: #c5c5c5;
+		font-family: "Open Sans";
+		font-size: 14px;
+		line-height: 1.5;
+		font-weight: 400;
+		max-width: 530px;
+		margin-bottom: 50px;
+	}
+
+	.perfect__btn {
+		display: inline-block;
+		border-radius: 26px;
+		border: 3px solid #fcdb5a;
+		background-color: #fcdb5a;
+		padding: 18px 47px;
+		color: #4f4a37;
+		font-family: 'Raleway';
+		font-size: 12px;
+		line-height: 1;
+		font-weight: 700;
+		text-transform: uppercase;
+		transition: linear .2s;
+
+		&:hover {
+			text-decoration: none;
+			background-color: transparent;
+			color: #fff;
+		}
+	}
+
+
+}

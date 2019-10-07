@@ -1,0 +1,21 @@
+.head {
+	background: url(../img/1-head/bg-head.jpg) center (center/cover) no-repeat;
+	position: relative;
+
+	.head__inner {
+		height: 100vh;
+		min-height: 700px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+
+	.head__title {
+		color: #ffffff;
+		font-family: 'Storytella';
+		font-size: 200px;
+		line-height: 1;
+		font-weight: 400;
+	}
+}

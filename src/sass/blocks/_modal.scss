@@ -1,0 +1,105 @@
+.overlay {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.56);
+}
+
+.modal {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 380px;
+	background-color: #f2f2f2;
+	padding: 40px;
+	text-align: center;
+	border-radius: 5%;
+}
+
+.modal__close {
+	position: absolute;
+	top: 0;
+	right: -25px;
+	transform: translateX(20px);
+	font-size: 80px;
+	line-height: 20px;
+	color: #fcdb5a;
+	cursor: pointer;
+}
+
+.modal__title {
+	color: #0d0d0d;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.modal__descr {
+	color: #0d0d0d;
+	font-size: 13px;
+	line-height: 13px;
+	font-weight: 500;
+	margin-top: 11px;
+	margin-bottom: 0;
+}
+
+.modal_mini {
+	min-height: 140px;
+}
+
+
+
+#consultation,
+#order,
+#thanks {
+	display: none;
+}
+
+
+
+/* Стили формы в модальном окне */
+.feed__form {
+	margin-top: 35px;
+
+}
+
+input {
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	background-color: #ffffff;
+	margin-bottom: 15px;
+	padding: 0 20px;
+	font-size: 14px;
+	color: #4b4b4b;
+
+	&:nth-child(3) {
+		margin-bottom: 20px;
+	}
+}
+
+.modal__btn {
+	display: inline-block;
+	border-radius: 26px;
+	border: 3px solid #fcdb5a;
+	background-color: #fcdb5a;
+	padding: 15px 55px;
+	color: #4f4a37;
+	font-family: 'Raleway';
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: linear .2s;
+
+	&:hover {
+		text-decoration: none;
+		background-color: transparent;
+		color: #000;
+	}
+}

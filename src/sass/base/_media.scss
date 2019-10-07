@@ -1,0 +1,350 @@
+@media (max-width: 1200px) {
+
+	.review {
+		.review__text {
+			&::before {
+				left: 0;
+				top: -10px;
+			}
+		}
+	}
+
+	.footer {
+		.footer__contact {
+			margin: 20px -15px;
+		}
+	}
+
+}
+
+@media (max-width: 991px) {
+	.header {
+		.nav__link {
+			margin-right: 20px;
+		}
+
+		.nav {
+			padding: 50px 0 15px;
+		}
+
+		.header__logo {
+			img {
+				height: 90px;
+			}
+		}
+	}
+
+	.services {
+		padding: 70px 0;
+
+		.services__block {
+			justify-content: center;
+		}
+
+		.services__item {
+			flex-basis: 25%;
+		}
+	}
+
+	.cakes {
+		.cakes__title {
+			font-size: 180px;
+		}
+	}
+
+	.review {
+
+		.review__item {
+
+			.review__text {
+				font-size: 20px;
+				text-align: center;
+			}
+
+			.review__author {
+				flex-direction: column;
+				margin-top: 25px;
+			}
+
+			.review__name {
+				margin-top: 15px;
+			}
+		}
+
+		.reviews-caro {
+			margin: 100px auto 0;
+
+			&:before {
+				left: 50%;
+				transform: translateX(-50%);
+				top: -60px;
+			}
+		}
+
+		.slick-dots {
+			bottom: -40px;
+			right: auto;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+
+	.footer {
+
+		.footer__inner {
+			padding-right: 0;
+			width: 100%;
+		}
+
+		.maps {
+			display: none;
+		}
+	}
+
+}
+
+@media (max-width: 767px) {
+	.title {
+		font-size: 36px;
+	}
+
+	.header {
+		.nav {
+			background: #0c0c0c;
+			padding: 35px 30px;
+			margin: 0;
+			height: 100%;
+			width: 240px;
+			position: fixed;
+			right: 0;
+			top: 0;
+			visibility: hidden;
+			overflow-y: auto;
+			transform: translateX(100%);
+			z-index: 100;
+			transition: all .4s ease-in-out;
+		}
+
+
+		.nav.active {
+			transform: translateX(0);
+			visibility: visible;
+		}
+
+		.nav__close {
+			display: inline;
+		}
+
+		.nav__list {
+			margin-top: 60%;
+			padding: 0;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		.nav__link {
+			text-transform: uppercase;
+			font-size: 18px;
+			margin-right: 0;
+			margin-bottom: 40px;
+
+			&::after {
+				bottom: -10px;
+			}
+		}
+
+		.header__btn {
+			display: none;
+		}
+
+		.nav-toggle {
+			display: block;
+		}
+	}
+
+	.menu-is-open .nav-open {
+		-webkit-transform: translateX(0);
+		-ms-transform: translateX(0);
+		transform: translateX(0);
+		visibility: visible;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.head {
+
+		.head__title {
+			font-size: 170px;
+		}
+	}
+
+	.services {
+		padding: 50px 0;
+
+		.services__title {
+			margin-bottom: 15px;
+		}
+
+		.services__block {
+			margin-top: 70px;
+		}
+
+		.services__item {
+			flex-basis: 33.333%;
+		}
+	}
+
+	.perfect {
+		padding: 100px 0;
+
+		.perfect__inner {
+			text-align: center;
+		}
+
+		.perfect__title {
+			margin: 0 auto 35px;
+		}
+
+		.perfect__text {
+			margin: 0 auto 50px;
+		}
+	}
+
+	.cakes {
+		padding: 250px 0 170px;
+		background-position: left;
+
+		.cakes__title {
+			font-size: 160px;
+		}
+
+		.cakes__irg {
+			left: 35%;
+		}
+	}
+
+	.progress {
+		padding: 70px 0;
+
+		.progress__item {
+			flex-basis: 50%;
+			justify-content: center;
+		}
+	}
+
+	.gallery {
+
+		.gallery__item {
+			flex-basis: 50%;
+		}
+	}
+
+	.review {
+		padding: 80px 0;
+	}
+
+	.blog {
+		padding: 80px 0;
+
+		.blog__block {
+			justify-content: space-around;
+		}
+
+		.blog__item {
+			flex-basis: 49%;
+		}
+	}
+}
+
+@media (max-width: 575px) {
+
+	.head {
+
+		.head__title {
+			font-size: 100px;
+		}
+	}
+
+	.services {
+		padding: 30px 0;
+
+		.services__item {
+			flex-basis: 50%;
+		}
+	}
+
+	.perfect {
+		padding: 50px 0;
+	}
+
+	.cakes {
+		padding-bottom: 60px;
+	}
+
+	.progress {
+
+		.progress__block {
+			margin-top: 50px;
+		}
+
+		.progress__item {
+			flex-basis: 100%;
+		}
+	}
+
+	.review {
+		.review__text {
+			font-size: 17px;
+		}
+
+		.review__name {
+			margin-left: 10px;
+		}
+	}
+
+	.blog {
+
+		.blog__item {
+			flex-basis: 80%;
+			margin-bottom: 15px;
+		}
+	}
+
+	.footer {
+		padding: 40px 0;
+
+		.footer__links {
+			display: none;
+		}
+
+		.footer__contact {
+			padding: 0;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.footer-p {
+			text-align: center;
+		}
+
+		.footer__copyrights {
+			flex-direction: column;
+			align-items: center;
+			padding-top: 15px;
+		}
+
+		.footer__copyright {
+			margin-bottom: 15px;
+			text-align: center;
+		}
+	}
+
+	.modal {
+		width: 90%;
+
+		.modal__close {
+			right: 35px;
+			top: 15px;
+		}
+	}
+}

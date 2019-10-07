@@ -1,0 +1,44 @@
+.services {
+	padding: 100px 0;
+	background-color: #fff;
+
+	.services__inner {
+		text-align: center;
+	}
+
+	.services__title {
+		margin-bottom: 25px;
+	}
+
+	.services__text {
+		max-width: 550px;
+		margin: 0 auto;
+	}
+
+	.services__block {
+		margin-top: 95px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.services__item {
+		flex-basis: 16.666%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 30px;
+
+		img {
+			margin-bottom: 30px;
+		}
+	}
+
+	.item__title {
+		color: #333333;
+		font-family: 'Raleway';
+		font-size: 16px;
+		line-height: 1;
+		font-weight: 700;
+		margin-top: auto;
+	}
+}

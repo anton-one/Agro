@@ -1,0 +1,51 @@
+.gallery {
+	.gallery__inner {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.gallery__item {
+		flex-basis: 25%;
+		position: relative;
+		background-color: #241610;
+		overflow: hidden;
+	}
+
+	.gallery__img {
+		display: block;
+		width: 100%;
+		height: auto;
+		transition: linear .5s;
+	}
+
+	.gallery__info {
+		width: 100%;
+		padding: 0 15px;
+		text-align: center;
+		color: #fff;
+		opacity: 0;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		z-index: 1;
+		transform: translate3d(0, -50%, 0);
+	}
+
+	.gallery__title {
+		color: #ffffff;
+		font-family: 'Raleway';
+		font-size: 18px;
+		line-height: 1;
+		font-weight: 700;
+	}
+
+	.gallery__item:hover .gallery__img {
+		opacity: 0.4;
+		transform: scale3d(1.1, 1.1, 1);
+	}
+
+	.gallery__item:hover .gallery__info {
+		opacity: 1;
+	}
+
+}

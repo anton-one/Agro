@@ -1,0 +1,14 @@
+.brand {
+	padding: 35px 0 130px;
+
+	.brand__block {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.brand__item {
+		padding: 0 20px;
+	}
+}
